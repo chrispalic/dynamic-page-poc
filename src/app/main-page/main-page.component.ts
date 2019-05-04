@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MainPageComponent implements OnInit {
   public pageDef = {
     pageName: 'Test Page',
+    pageMessage: 'This is page message that could be at the top of the page',
     pageContent: [
       {
         groupName: 'Group 1',
