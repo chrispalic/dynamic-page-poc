@@ -13,6 +13,7 @@ export class MainPageComponent implements OnInit {
       {
         groupName: 'Group 1',
         groupText: 'This is the Group 1 text',
+        groupHidden: false,
         groupContent: [
           {
             formFieldType: 1,
@@ -49,6 +50,7 @@ export class MainPageComponent implements OnInit {
       {
         groupName: 'Group 2',
         groupText: 'This is the Group 2 text',
+        groupHidden: false,
         groupContent: [
           {
             formFieldType: 5,
@@ -85,6 +87,7 @@ export class MainPageComponent implements OnInit {
       {
         groupName: 'Group 3',
         groupText: 'This is the Group 3 text',
+        groupHidden: false,
         groupContent: [
           {
             formFieldType: 3,
