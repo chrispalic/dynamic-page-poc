@@ -87,7 +87,7 @@ export class MainPageComponent implements OnInit {
       {
         groupName: 'Group 3',
         groupText: 'This is the Group 3 text',
-        groupHidden: false,
+        groupHidden: true,
         groupContent: [
           {
             formFieldType: 3,

@@ -1,4 +1,4 @@
-<div class="group-container">
+<div class="group-container" [ngClass]="{hidden: groupDefinition.groupHidden}">
   <h4>{{groupDefinition.groupText}}</h4>
   <div *ngFor="let question of groupDefinition.groupContent">
     <span [ngSwitch]="question.formFieldType">
