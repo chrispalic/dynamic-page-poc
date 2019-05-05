@@ -114,7 +114,7 @@ export class MainPageComponent implements OnInit {
             formFieldData: []
           },
           {
-            formFieldType: 1,
+            formFieldType: 6,
             formFieldText: 'Form Field 1 Text',
             formFieldOptions: 'Options',
             formFieldData: []

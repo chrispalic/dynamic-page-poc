@@ -10,6 +10,7 @@ export class GroupContainerComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.groupDefinition.toString());
   }
 
 }

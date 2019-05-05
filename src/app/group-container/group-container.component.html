@@ -1,6 +1,15 @@
 <div class="group-container">
-  <h4>{{this.groupDefinition.groupMessage}}</h4>
-  <div *ngFor="let question of this.groupDefinition.groupContent">
-    
+  <h4>{{groupDefinition.groupText}}</h4>
+  <div *ngFor="let question of groupDefinition.groupContent">
+    <span [ngSwitch]="question.formFieldType">
+      <app-form-component-one *ngSwitchCase="1"></app-form-component-one>
+      <app-form-component-two *ngSwitchCase="2"></app-form-component-two>
+      <app-form-component-three *ngSwitchCase="3"></app-form-component-three>
+      <app-form-component-four *ngSwitchCase="4"></app-form-component-four>
+      <app-form-component-five *ngSwitchCase="5"></app-form-component-five>
+      <div *ngSwitchDefault>
+        Error Rendering Form Field
+      </div>
+    </span>
   </div>
 </div>

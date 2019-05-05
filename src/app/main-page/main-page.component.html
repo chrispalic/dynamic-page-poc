@@ -1,5 +1,5 @@
 <h1>This is the page</h1>
 <h3>{{this.pageDef.pageMessage}}</h3>
 <div *ngFor="let group of this.pageDef.pageContent">
-  <app-group-container groupDefinition=group></app-group-container>
+  <app-group-container [groupDefinition]=group></app-group-container>
 </div>
